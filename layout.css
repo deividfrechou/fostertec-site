@@ -1,0 +1,158 @@
+/*=========== RESET ==========*/
+body {margin-left:5%; margin-right:5%; margin-top:0; padding:0;}
+a {text-decoration: none;}
+ul {list-style: none;}
+
+/*=========== CONTAINER ==========
+.container {width: 100%; float: left; padding: 3% 4%; text-align: center;}
+este comando pode incrementar os codigos de estilos de outras classes
+*/
+
+/*=========== BG COLORS ==========
+.bg-gradient {background: linear-gradient(to right,#ce2e3c,#da6709);}
+.bg-black {background-color: #130400; }
+.bg-white {background-color: #fff;}
+*/
+
+/*=========== HELPERS ==========
+.radius {border-radius: 7px;}*/
+
+/* CABEÇALHO */
+.logo {width: 56px; height: 56px; float:left; background: url(logo-mobile.png) center center/56px no-repeat; font-size: 0}
+.btn-menu {width: 56px; height: 56px; float: right; text-align: center; color: #fff; border-radius:56px; cursor: pointer; background: linear-gradient(to right,#036,#99C);}
+
+/* MENU */
+.menu {display:none; width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,0.9); top: 0; left: 0;}
+.btn-close {font-size: 1.5em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
+.menu ul {width: 100%; float: left; text-align: center;}
+.menu li {padding: 1.5%;}
+.menu li a {font-size: 2em; color: #fff; padding: 1.5%;}
+.menu li a:hover {border:1px solid #da6709;}
+
+/* BANNER */
+.banner {width: 100%;  float:left; text-align: center; background: url(bg.jpg) no-repeat fixed;}
+.titulo h3 {font-size: 1.5em; color: #fff;}
+.buttons i {float: right;}
+.btn {font-size: 1em; text-align: left; cursor: pointer; padding: 3%; border-radius: 7px 7px 7px 7px;}
+.btn-login {color: #130400; background-color:#FFF;}
+.btn-sobre {color:#fff ; background-color:#130400; margin-top: 2%; margin-bottom:2%;}
+
+/* ========== MOBILE FIRST ==========*/
+/* SERVIÇOS */
+.servico {width:90%; float:left; text-align:justify; margin-bottom: 2%; margin-top:2%; margin-left:2%}
+.servico img {width:90%; border-radius: 7px 7px 0 0; margin-left:5%}
+.inner {padding: 2%;}
+.inner a {font-size: 1.5em; color: #130400; font-weight: 700; }
+.inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%; }
+.inner p {margin-top: 6%; color: #130400; line-height: 1.5em;}
+
+/* PORTIFOLIO */
+.port {width: 90%; float:left; margin-bottom: 2%; margin-top:2%; margin-left:2%;}
+.port img {width: 70%;height:60vh; border-radius: 7px 7px 0 0;}
+.portinner {padding: 2%;}
+.portinner h4 {text-align:center; font-size: 1.2em; color: #130400; margin-top: 2%; }
+
+/* SOBRE */
+.sobre {width: 90%; float:left; text-align:justify; margin-left:2%}
+.sobre h4 {font-size: 2em; text-shadow: 0 0 10px #FFF, 0 0 10px #fff, 0 0 10px #fff, 0 0 30px #069, 0 0 20px #069, 0 0 20px #ff00de, 0 0 20px #ff00de, 0 0 10px #ff00de;}
+.sobre p {font-size: 1.2em; margin-top: 6%; font-family: 'Coiny', serif;}
+
+/* PAINEL DO USUARIO */
+.painel {width: 90%; float:left; text-align:justify; margin-left:2%}
+.painel h4 {font-size: 2em; text-shadow: 0 0 10px #FFF, 0 0 10px #fff, 0 0 10px #fff, 0 0 30px #069, 0 0 20px #069, 0 0 20px #ff00de, 0 0 20px #ff00de, 0 0 10px #ff00de;}
+.painel p {font-size: 1.2em; margin-top: 6%; font-family: 'Coiny', serif;}
+
+/* PÁGINA DE E-MAIL*/
+.einner {padding: 2%;}
+.einner a {font-size: 1.5em; color: #130400; font-weight: 700; }
+.einner h4 {font-size: 1.2em; color: #130400; margin-top: 2%; }
+.einner p {margin-top: 6%; color: #130400; line-height: 1.5em;}
+.email {width: 90%; float:left; text-align:center; margin-bottom: 2%; margin-top:2%; margin-left:10%;}
+.email img {width: 20%; border-radius: 7px 7px 0 0;}
+
+/* ÁREA DE CADASTRO DE USUÁRIOS, LOGIN E DEMAIS FORMULARIOS */
+.cadastro{width: 80%; float:left; margin-bottom:0.5%; margin-left:10%}
+.cadastro h2 {font-size: 1.5em; color:#03C; font-weight: 700}
+.cadastro form {margin-top: 2%;}
+.cadastro input {width:80%; padding: 5%; font-size: 1.3em; color:#003; margin-top:4%; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; float:center; background-color:#99F;}
+.cadastro button {padding: 5%; color:#039; cursor: pointer; margin-top: 2%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF}
+
+/* Pagina de captura de leads */
+.lead{width: 80%; float:left; margin-bottom:0.5%; margin-left:10%}
+.lead h2 {font-size: 1.5em; color:#03C; font-weight: 700}
+.lead h3 {font-size: 1em; color: #000;}
+.lead form {margin-top: 2%;}
+.lead input {width:80%; padding: 5%; color:#FFF; margin-top:4%; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; float:center; background-color:#030;}
+.lead button {padding: 5%; color:#039; cursor: pointer; margin-top: 2%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF}
+
+/* NEWSLETTER */
+.newsletter{width: 100%; float:left; text-align: left;  margin-bottom:0.5%; background-color:#000}
+.newsletter h2 {font-size: 1.5em; color:#fff; font-weight: 700; text-align:center;}
+.newsletter h3 {font-size: 1em; color: #fff; text-align:center;}
+.newsletter form {margin-top: 2%;}
+.newsletter input {width:30%; padding: 5%; color:#FFF; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; float:center; background-color:#000;}
+.newsletter button {padding: 5%; color:#130400; cursor: pointer; margin-top: 2%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF;}
+
+/* RODAPÉ */
+.rodape {width: 100%; float:left; background-color:#003; color: rgba(255, 255, 255, 0.7); padding-bottom:1%; padding-top: 2%;}
+.copyright {text-align: center;}
+.social-icons a {font-size: 1.5em; color: rgba(255,255,255,0.7); margin-right: 3%;}
+.social-icons a:last-child {margin-right: 0;}
+.social-icons a:hover {color: rgb(255,255,255);}
+
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+.servico {width: 46%; margin-left:20%;}
+.servico img {width:90%; height:40vh}
+.port {width: 40%; margin-left:30%;}
+.port img {width: 80%;height:40vh}
+.sobre {width: 40%; margin-left:4%; margin-right:2%}
+.sobre p {font-size: 1em}
+.lead{width: 60%; margin-left:20%}
+.newsletter input {padding: 3%; color:#000; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; background-color:#000; margin-left:3%;}
+.newsletter button {padding: 3%; color:#130400; cursor: pointer; margin-top: 2%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF;}
+.buttons i {float: right;}
+.btn {font-size: 1em; padding: 1%; border-radius: 7px 7px 7px 7px;}
+.btn-sobre {margin-top: 1%; margin-bottom:1%;}
+.cadastro {width:60%; margin-left:20%}
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 760px) {
+.servico {width: 29%; margin-left:2%}
+.servico img {width: 90%; height:40vh}
+.port {width: 29%; margin-left:35%}
+.port img {width: 80%;height:40vh}
+.sobre {width: 24%; margin-left:4%; margin-right:4%}
+.email img {width: 12%}
+.lead{width: 50%; margin-left:25%}
+.newsletter h2 {font-size: 1.7em;}
+.newsletter h3 {font-size: 1.2em;}
+.newsletter input {padding: 1%; color:#000; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; background-color:#000;}
+.newsletter button {padding: 1%; color:#130400; cursor: pointer; margin-top: 1%; border-radius: 9px 9px 9px 9px; margin-bottom: 2%; background-color:#FFF;}
+.btn {font-size: 1em; padding: 2%; border-radius: 7px 7px 7px 7px;}
+.btn-sobre {margin-top: 0.7%; margin-bottom:0.7%;}
+.cadastro {width:40%; margin-left:30%}
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+.logo {width: 214px; background: url(logo.png) center center/214px no-repeat;}
+.servico {width: 23%; margin-left:1%;}
+.servico img {width: 80%; height:30vh}
+.port {width: 40%; margin-left:30%;}
+.port img {width: 80%;height:30vh}
+.lead{width: 40%; margin-left:30%}
+.newsletter input {padding: 1%; color:#fff; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; background-color:#000;}
+.newsletter button {padding: 1%; color:#130400; cursor: pointer; margin-top: 1%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF;}
+.btn-menu {display: none;}
+.btn-close {display: none;}
+.menu {width: auto; height: 56px; line-height: 6px; float: right; display: block !important; position: static; background-color:transparent; font-size:20px;}
+.menu li {padding: 0; float: left; color:#003;}
+.menu li a {font-size: 20px; padding: 8px; background-color:transparent; color:#003;}
+.menu li a:hover {border: none; font-size:30px; color:#da6709; background-color:transparent; border-color:#F60;}
+.btn {font-size: 1em; padding: 1%; border-radius: 7px 7px 7px 7px;}
+.btn-sobre {margin-top: 0.5%; margin-bottom:0.5%;}
+.cadastro {width:30%; margin-left:35%}
+}

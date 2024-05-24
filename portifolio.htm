@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fostertec - Promovendo Soluções em Tecnologia</title>
+    <meta name="Description" content="Web sites, sistemas de gestão e automação">
+    <meta name="keywords" content="fortertec, web, sites, ecomerce, sistemas, deivao, foster, fortertec, tec, deivid, frechou">
+    <meta name="google-site-verification" content="Zx6Tq2P8FuI-VnKyu7GwFNhGIePLYL1QSMH8hvmZifc" />
+    <meta name="robots" content="index, falow">
+    <meta name="author" content="Deivid frechou">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <script src="scripts.js"></script>
+</head>
+
+
+<body>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="327627674702661">
+</div> 
+
+
+    <header class="cabecalho">
+	<a href="index.htm"><h1 class="logo"></h1></a>
+	<button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+    
+	<nav class="menu">
+	<a class="btn-close"><i class="fa fa-times"></i></a>
+	<ul>
+		<!-- <li><a href='javascript:func()'onclick='loja()'>|| Loja || </a></li> -->
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="portifolio.htm">Portifólio</a></li>		
+		<li><a href="sobre.htm">Sobre</a></li>
+	</ul>
+	</nav>	
+</header>
+
+
+<div class="banner">
+
+   <div class="titulo">
+     <h3>Promovendo Soluções em Tecnologia<br>
+     (51)98950-5145</h3>
+     
+  </div>
+
+  <div class="buttons">
+    <button class="btn btn-login"><a href="https://wa.me/5551989505145"">Watsapp</a><i class="fa fa-arrow-circle-right"></i></button>
+    <button class="btn btn-sobre"><a href="sobre.htm">Sobre</a> <i class="fa fa-question-circle"></i></button>      
+  </div>
+
+</div>
+
+<main>
+
+<center>
+
+  <article class="port">
+    <iframe width="200" height="200" src="https://www.youtube.com/embed/X4Jo2H_S1bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="portinner">
+      <h4>Softwere de Orçamento e Ordem de Serviço</h4>
+      </div>
+  </article>
+  
+</center>
+
+</main>
+
+<section class="newsletter">
+    <h2>Inscreva-se!!!</h2>
+    <h3>Receba mais informações dos cursos e demais novidades</h3>
+    <form action="email-enviar.php" method="post">
+    <center>
+      <input type="text" name="nome" size="10" placeholder="Seu nome">
+      <input type="email" name="email" size="10" placeholder="Seu e-mail">
+      <button>OK</button>
+    </center>
+    </form>
+  </section>
+
+<footer class="rodape">
+  <div class="social-icons" align="center">
+     <a href="http://facebook.com/fostertec"><i class="fab fa-facebook-square"></i></a>
+     <!-- <a href="#"><i class="fab fa-google-plus-square"></i></a>
+     <a href="#"><i class="fab fa-twitter-square"></i></a>
+     <a href="#"><i class="fab fa-linkedin"></i></a>
+     <a href="#"><i class="fab fa-pinterest-square"></i></a>   -->
+     <a href="https://wa.me/5551989595145"><i class="fab fa-whatsapp"></i></a>
+  </div> 
+ <p class="copyright">
+    Copyright @ fostertec 2011 - Todos os direitos reservados.<br>
+    CNPJ: 14.090.888/0001-05
+  </p>
+</footer>
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+	$(".btn-menu").click(function(){
+      $(".menu").show();
+});
+	$(".btn-close").click(function(){
+      $(".menu").hide();
+});
+</script>
+</body>
+</html>
